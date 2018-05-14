@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">InstaStars</string>
+    <string name="searchtext">کلمه مورد جستجو</string>
+    <string name="ins_add">آدرس اینستاگرام:</string>
+    <string name="back">لطفا برای خروج دوباره کلید خروج را فشار دهید</string>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/heart</item>
+        <item>@drawable/phone</item>
+        <item>@drawable/info</item>
+        <item>@drawable/close</item>
+    </array>
+<string name="sendusemail">ارسال ایمیل به ما...</string>
+    <string-array name="nav_drawer_items">
+        <item>صفحــه اصـــلی</item>
+        <item>مورد علاقه هـــا</item>
+        <item>تمـاس با مـــا</item>
+        <item>دربـاره مــــا</item>
+        <item>خــــروج</item>
+    </string-array>
+<string name="pic_gallery">"گالری"</string>
+    <string name="save_pic_completed">در گالری ذخیره گردید</string>
+    <string name="save_pic_error">اشکال در ذخیره سازی!</string>
+    <string name="share_photo">ارسال این عکس به دوستان</string>
+    <string name="share_caption">آپلیکیشن اندرویدی اینستااستار</string>
+    <string name="instastars">اینستاگرام ستاره ها</string>
+    <string name="me">من مهدی عزیزم. یک سالی هست که با دوستام محمد و آذر کار اندرویدی میکنم. نوشتن اپ بیشتر برام سرگرمیه تا راهی برای کسب درآمد! اگه ایده یا راهی دارین برای نوشتن برنامه های بهتر اندرویدی خوشحال میشم بیشتر بدونم و بهتر پیاده کنم:) </string>
+    <string name="moh">من  هستم. ارشد ای تی. برای سرگرمی کارهای اندرویدی میکنم.
+        دوست دارم همیشه بیشتر بدونم.</string>
+    <string name="azar">من  هستم. ارشد ای تی. برای سرگرمی کارهای اندرویدی میکنم.
+        دوست دارم همیشه بیشتر بدونم.</string>
+    <string name="actor_detail_title">برای دیدن عکس های بیشتر کلیک کنید</string>
+	<string name="about_version">شرکت رابین تقدیم می کند</string>
+	<string name="splash_txt">اینستاگرام ستاره ها</string>
+	<string name="gallery_image">عکس شماره </string>
+</resources>

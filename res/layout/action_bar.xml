@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="36dp" >
+
+        <ImageView
+            android:id="@+id/ac_background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/action_bar"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" />
+
+        <ImageButton
+            android:id="@+id/ac_back"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="6dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/titleac"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/instastars"
+            android:textColor="@color/pinterest_content_font"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+</LinearLayout>

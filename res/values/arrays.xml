@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>بازیگران</item>
+        <item>ورزشکاران</item>
+        <item>موسیقی دانان</item>
+    </string-array>
+    
+</resources>

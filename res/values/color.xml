@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="pinterest_content_sub_font">#c6c6c6</color>
+    <color name="pinterest_content_font">#505050</color>
+    <color name="blue">#0031f7</color>
+    <color name="lightred">#f5eaea</color>
+    <color name="lightgreen">#e9f5eb</color>
+    <color name="lightyellow">#f8fac1</color>
+    <color name="lightpink">#f9f3f8</color>
+    <color name="lightblue">#e8f4f7</color>
+    <color name="lightwhite">#f6f6e9</color>
+    <color name="lightorange">#f6ecdd</color>
+    <color name="lightgreen2">#d9ede3</color>
+    <color name="holo_blue_dark">#0099cc</color>
+    <color name="pinterest_margin_gray">#e9e9e9</color>
+    <color name="red">#f22b2b</color>
+    <color name="color_font_splash_version">#f4f4f4</color>
+    <color name="background_gal">#0a062a</color>
+    <color name="color_margin_gallery">#3a3a3a</color>
+
+</resources>

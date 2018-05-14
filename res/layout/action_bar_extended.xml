@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/action_bar"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:weightSum="1.0" >
+
+    <ImageButton
+        android:id="@+id/ac_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginLeft="6dp"
+        android:background="@android:color/white"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="30dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/instastars"
+        android:textSize="18sp"
+        android:textColor="@color/pinterest_content_font" />
+
+    <ImageButton
+        android:id="@+id/ac_bookmark"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:paddingRight="3dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="6dp"
+        android:background="@android:color/white"
+        android:scaleType="fitXY"
+        android:src="@drawable/heartup" />
+
+    <ImageButton
+        android:id="@+id/ac_search"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="right|center_vertical"
+        android:paddingRight="3dp"
+        android:background="@android:color/white"
+        android:src="@android:drawable/ic_menu_search" />
+
+    <ImageButton
+        android:id="@+id/ac_options"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:scaleType="fitXY"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="6dp"
+        android:background="@android:color/white"
+        android:src="@drawable/options" />
+
+</LinearLayout>

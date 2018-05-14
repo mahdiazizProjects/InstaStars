@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.robin.instastars"
+    xmlns:app1="http://schemas.android.com/apk/res/com.robin.instastars"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.etsy.android.grid.StaggeredGridView
+        android:id="@+id/grid_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:column_count_landscape="3"
+        app:column_count_portrait="2"
+        app1:item_margin="14dip" />
+
+</LinearLayout>

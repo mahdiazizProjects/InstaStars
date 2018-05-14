@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.robin.instastars"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_card"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <makeramen.RoundedImageView
+            android:id="@+id/image_aks"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:corner_radius="6dp"
+            app:mutate_background="true" />
+
+        <ProgressBar
+            android:id="@+id/pw_spinner"
+            style="@android:style/Widget.Holo.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="true" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/btnbookmark"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/white"
+            android:paddingRight="4dp"
+            android:src="@drawable/heart" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+           android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_toRightOf="@+id/btnbookmark"
+            android:layout_toLeftOf="@+id/profile_aks"
+            android:gravity="right"
+            android:lineSpacingExtra="-4dp"
+            android:paddingLeft="4dp"
+            android:textColor="@color/pinterest_content_font"
+            android:textDirection="rtl"
+            android:textSize="14sp" />
+
+        <makeramen.RoundedImageView
+            android:id="@+id/profile_aks"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:layout_toRightOf="@+id/user_name"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            app:border_color="#e5e5e5"
+            app:border_width="1dp"
+            app:mutate_background="true"
+            app:oval="true" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/news_card"
+    android:orientation="vertical" xmlns:app1="http://schemas.android.com/apk/res/com.robin.instastars">
+
+    <RelativeLayout
+        android:id="@+id/center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal" >
+
+        <makeramen.RoundedImageView
+            android:id="@+id/list_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/me"
+            app1:oval="true"
+            app1:border_width="1dp"
+            app1:border_color="@color/pinterest_margin_gray"
+            app1:mutate_background="true"
+            app1:corner_radius="8dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/list_image"
+            android:gravity="right"
+            android:textColor="@color/pinterest_content_font"
+            android:textDirection="rtl"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</LinearLayout>
